@@ -1,69 +1,161 @@
 /* Vencord */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(30)::before {
+.vc-settings::before {
 	-webkit-mask: var(--settingsicons-bd-settings) center/contain no-repeat !important;
 }
 
 /* Plugins */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(31)::before {
+.vc-plugins::before {
 	-webkit-mask: var(--settingsicons-bd-plugins) center/contain no-repeat !important;
 }
 
 /* Themes */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(32)::before {
+.vc-themes::before {
 	-webkit-mask: var(--settingsicons-bd-themes) center/contain no-repeat !important;
 }
 
 /* Updater */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(33)::before {
+.vc-updater::before {
 	-webkit-mask: var(--settingsicons-bd-changelog) center/contain no-repeat !important;
 }
 
 /* Cloud */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(34)::before {
+.vc-cloud::before {
 	-webkit-mask: var(--settingsicons-connections) center/contain no-repeat !important;
 }
 
 /* Backup & Restore */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(35)::before {
+.vc-backup-restore::before {
 	-webkit-mask: var(--settingsicons-advanced) center/contain no-repeat !important;
 }
 
+/* Patch Helper */
+.vc-patch-helper::before {
+	-webkit-mask: var(--settingsicons-developer) center/contain no-repeat !important;
+}
+
 /* Desktop Settings */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(36)::before {
+.vc-vesktop-settings::before {
 	-webkit-mask: var(--settingsicons-sessions) center/contain no-repeat !important;
 }
 
 /* Activity Privacy */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(39)::before {
+.vc-settings ~ .header-2F5_LB + .item-2GWPIy::before {
 	-webkit-mask: var(--settingsicons-activityprivacy) center/contain no-repeat !important;
 }
 
 /* What's New */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(41)::before {
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy::before {
 	-webkit-mask: var(--settingsicons-changelog) center/contain no-repeat !important;
 }
 
 /* HypeSquad */
-.sidebar-nqHbhN:has(.socialLinks-3ywLUf)
-	.side-1lrxIh
-	.item-2GWPIy:nth-child(42)::before {
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
 	-webkit-mask: var(--settingsicons-hypesquad) center/contain no-repeat !important;
+}
+
+/* Experiments */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-experiments) center/contain no-repeat !important;
+}
+
+/* Developer Options */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-developer) center/contain no-repeat !important;
+}
+
+/* Hotspot Options */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-hotspots) center/contain no-repeat !important;
+}
+
+/* Dismissable Contents */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-dismissable) center/contain no-repeat !important;
+}
+
+/* Payment Flow Modals */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-paymentmodals) center/contain no-repeat !important;
+}
+
+/* Text Playground */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-textplayground) center/contain no-repeat !important;
+}
+
+/* Text Components */
+.vc-settings
+	~ .header-2F5_LB
+	+ .item-2GWPIy
+	+ .separator-2N511j
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy
+	+ .item-2GWPIy::before {
+	-webkit-mask: var(--settingsicons-textcomponent) center/contain no-repeat !important;
 }
