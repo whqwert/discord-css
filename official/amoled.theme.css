@@ -15,18 +15,30 @@
 	--background-message-highlight: hsl(var(--brand-360-hsl) / 0.08);
 	--background-message-highlight-hover: hsl(var(--brand-360-hsl) / 0.06);
 	--background-message-hover: var(--dontuse-21);
-	--background-mobile-primary: var(--primary-600);
-	--background-mobile-secondary: var(--primary-630);
+	--background-mobile-primary: var(--black-500);
+	--background-mobile-secondary: var(--dontuse-26);
 	--background-modifier-accent: hsl(var(--dontuse-16-hsl) / 0.455);
 	--background-modifier-accent-2: hsl(var(--dontuse-11-hsl) / 0.32);
-	--background-modifier-active: hsl(var(--primary-500-hsl) / 0.48);
+	--background-modifier-active: hsl(var(--dontuse-15-hsl) / 0.48);
 	--background-modifier-hover: hsl(var(--primary-500-hsl) / 0.3);
-	--background-modifier-selected: hsl(var(--primary-500-hsl) / 0.6);
+	--background-modifier-selected: hsl(var(--dontuse-15-hsl) / 0.6);
 	--background-nested-floating: var(--black-500);
 	--background-primary: var(--black-500);
 	--background-secondary: var(--dontuse-23);
 	--background-secondary-alt: var(--dontuse-17);
 	--background-tertiary: var(--dontuse-19);
+	--bg-backdrop: hsl(var(--dontuse-19-hsl) / 0.75);
+	--bg-base-primary: var(--black-500);
+	--bg-base-secondary: var(--black-500);
+	--bg-base-tertiary: var(--black-500);
+	--bg-mod-faint: hsl(var(--dontuse-11-hsl) / 0.06);
+	--bg-mod-strong: hsl(var(--dontuse-11-hsl) / 0.18);
+	--bg-mod-subtle: hsl(var(--dontuse-11-hsl) / 0.12);
+	--bg-surface-overlay: var(--dontuse-19);
+	--bg-surface-overlay-tmp: var(--dontuse-23);
+	--bg-surface-raised: var(--dontuse-22);
+	--blur-fallback: hsl(var(--dontuse-19-hsl) / 0.96);
+	--blur-fallback-pressed: hsl(var(--dontuse-20-hsl) / 0.96);
 	--border-strong: hsl(var(--dontuse-11-hsl) / 0.2);
 	--button-creator-revenue-background: var(--teal-430);
 	--button-danger-background: var(--red-430);
@@ -77,29 +89,38 @@
 	--button-secondary-background-active: var(--primary-400);
 	--button-secondary-background-disabled: var(--primary-500);
 	--button-secondary-background-hover: var(--primary-430);
+	--card-gradient-bg: hsl(var(--black-500-hsl) / 0.7);
+	--card-gradient-pressed-bg: hsl(var(--black-500-hsl) / 0.5);
+	--card-primary-bg: var(--dontuse-22);
+	--card-primary-pressed-bg: var(--dontuse-24);
+	--card-secondary-bg: var(--dontuse-23);
+	--card-secondary-pressed-bg: var(--dontuse-25);
 	--channel-icon: var(--primary-400);
 	--channel-text-area-placeholder: var(--primary-400);
 	--channeltextarea-background: var(--primary-800);
+	--chat-background: var(--black-500);
+	--chat-input-container-background: var(--primary-600);
 	--divider-strong: hsl(var(--dontuse-11-hsl) / 0.2);
 	--header-primary: var(--dontuse-2);
 	--header-secondary: var(--dontuse-8);
+	--home-background: var(--primary-760);
+	--home-card-resting-border: hsl(var(--transparent-hsl) / 0);
 	--icon-primary: var(--dontuse-5);
 	--input-background: var(--dontuse-22);
 	--input-placeholder-text: var(--dontuse-9);
+	--input-pressed-background: var(--dontuse-20);
 	--interactive-active: var(--dontuse-3);
 	--interactive-normal: var(--dontuse-5);
 	--redesign-activity-card-background: var(--dontuse-20);
 	--redesign-activity-card-background-pressed: var(--dontuse-21);
-	--redesign-activity-card-badge-icon: var(--primary-400);
+	--redesign-activity-card-badge-icon: var(--dontuse-11);
 	--redesign-activity-card-border: hsl(var(--dontuse-11-hsl) / 0.12);
 	--redesign-activity-card-overflow-background: var(--primary-630);
 	--redesign-button-danger-background: var(--red-430);
 	--redesign-button-danger-pressed-background: var(--red-460);
 	--redesign-button-danger-text: var(--white-500);
 	--redesign-button-overlay-alpha-background: hsl(var(--black-500-hsl) / 0.54);
-	--redesign-button-overlay-alpha-pressed-background: hsl(
-		var(--black-500-hsl) / 0.64
-	);
+	--redesign-button-overlay-alpha-pressed-background: hsl(var(--black-500-hsl) / 0.64);
 	--redesign-button-overlay-alpha-text: var(--white-500);
 	--redesign-button-overlay-background: var(--white-500);
 	--redesign-button-overlay-pressed-background: var(--primary-230);
@@ -108,20 +129,16 @@
 	--redesign-button-positive-pressed-background: var(--green-460);
 	--redesign-button-positive-text: var(--white-500);
 	--redesign-button-primary-alt-background: hsl(var(--brand-500-hsl) / 0);
-	--redesign-button-primary-alt-border: var(--brand-360);
-	--redesign-button-primary-alt-on-blurple-background: hsl(
-		var(--brand-530-hsl) / 0
-	);
+	--redesign-button-primary-alt-border: var(--brand-430);
+	--redesign-button-primary-alt-on-blurple-background: hsl(var(--brand-530-hsl) / 0);
 	--redesign-button-primary-alt-on-blurple-border: var(--white-500);
 	--redesign-button-primary-alt-on-blurple-pressed-background: var(--brand-530);
 	--redesign-button-primary-alt-on-blurple-pressed-border: var(--brand-360);
 	--redesign-button-primary-alt-on-blurple-text: var(--white-500);
-	--redesign-button-primary-alt-pressed-background: hsl(
-		var(--brand-700-hsl) / 0.16
-	);
+	--redesign-button-primary-alt-pressed-background: hsl(var(--brand-700-hsl) / 0.16);
 	--redesign-button-primary-alt-pressed-border: hsl(var(--brand-400-hsl) / 0.5);
 	--redesign-button-primary-alt-pressed-text: var(--brand-360);
-	--redesign-button-primary-alt-text: var(--brand-360);
+	--redesign-button-primary-alt-text: var(--brand-430);
 	--redesign-button-primary-background: var(--brand-500);
 	--redesign-button-primary-on-blurple-background: var(--white-500);
 	--redesign-button-primary-on-blurple-pressed-background: var(--brand-200);
@@ -129,19 +146,17 @@
 	--redesign-button-primary-on-blurple-text: var(--brand-500);
 	--redesign-button-primary-pressed-background: var(--brand-560);
 	--redesign-button-primary-text: var(--white-500);
-	--redesign-button-secondary-alt-background: hsl(
-		var(--dontuse-16-hsl) / 0.455
-	);
-	--redesign-button-secondary-alt-pressed-background: hsl(
-		var(--dontuse-11-hsl) / 0.2
-	);
-	--redesign-button-secondary-alt-pressed-text: var(--primary-330);
-	--redesign-button-secondary-alt-text: var(--primary-230);
+	--redesign-button-secondary-alt-background: hsl(var(--dontuse-16-hsl) / 0.455);
+	--redesign-button-secondary-alt-pressed-background: hsl(var(--dontuse-11-hsl) / 0.2);
+	--redesign-button-secondary-alt-pressed-text: var(--dontuse-8);
+	--redesign-button-secondary-alt-text: var(--dontuse-4);
 	--redesign-button-secondary-background: var(--dontuse-15);
-	--redesign-button-secondary-border: hsl(var(--white-500-hsl) / 0.08);
+	--redesign-button-secondary-border: hsl(var(--dontuse-11-hsl) / 0.12);
 	--redesign-button-secondary-pressed-background: var(--dontuse-12);
-	--redesign-button-secondary-pressed-border: var(--primary-500);
-	--redesign-button-secondary-text: var(--primary-230);
+	--redesign-button-secondary-pressed-border: hsl(var(--dontuse-11-hsl) / 0.12);
+	--redesign-button-secondary-text: var(--dontuse-4);
+	--redesign-chat-input-background: var(--dontuse-22);
+	--redesign-input-control-active-bg: var(--dontuse-17);
 	--redesign-input-control-selected: var(--brand-500);
 	--redesign-only-background-active: var(--dontuse-17);
 	--redesign-only-background-default: var(--black-500);
@@ -172,12 +187,11 @@
 	--android-navigation-scrim-background: hsl(var(--primary-830-hsl) / 0.5);
 	--android-ripple: hsl(var(--white-500-hsl) / 0.07);
 	--black: var(--black-500);
+	--border-faint: hsl(var(--dontuse-11-hsl) / 0.06);
 	--border-subtle: hsl(var(--dontuse-11-hsl) / 0.12);
 	--bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl) / 0.6);
 	--channels-default: var(--primary-360);
-	--chat-background: var(--primary-600);
 	--chat-border: var(--primary-700);
-	--chat-input-container-background: var(--primary-600);
 	--control-brand-foreground: var(--brand-360);
 	--control-brand-foreground-new: var(--brand-360);
 	--creator-revenue-icon-gradient-end: var(--teal-430);
@@ -199,13 +213,10 @@
 	--display-banner-overflow-background: hsl(var(--primary-700-hsl) / 0.5);
 	--divider-subtle: hsl(var(--dontuse-11-hsl) / 0.12);
 	--focus-primary: var(--blue-345);
-	--forum-post-extra-media-count-container-background: hsl(
-		var(--primary-660-hsl) / 0.8
-	);
+	--forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl) / 0.8);
 	--forum-post-tag-background: hsl(var(--primary-660-hsl) / 0.9);
+	--guild-notifications-bottom-sheet-pill-background: var(--primary-700);
 	--header-muted: var(--dontuse-10);
-	--home-background: var(--primary-645);
-	--home-card-resting-border: hsl(var(--transparent-hsl) / 0);
 	--icon-muted: var(--dontuse-13);
 	--icon-secondary: var(--dontuse-9);
 	--info-box-background: hsl(var(--blue-345-hsl) / 0.1);
@@ -223,21 +234,22 @@
 	--info-warning-text: var(--white-500);
 	--interactive-hover: var(--primary-230);
 	--interactive-muted: var(--dontuse-13);
+	--legacy-android-blur-overlay-default: hsl(var(--primary-660-hsl) / 0.5);
+	--legacy-android-blur-overlay-ultra-thin: hsl(var(--black-500-hsl) / 0.025);
+	--legacy-blur-fallback-default: hsl(var(--primary-660-hsl) / 0.975);
+	--legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl) / 0.95);
 	--live-stage-tile-border: hsl(var(--primary-500-hsl) / 0.6);
 	--logo-primary: var(--white-500);
 	--mention-background: hsl(var(--brand-500-hsl) / 0.5);
 	--mention-foreground: var(--brand-230);
 	--modal-background: var(--primary-600);
 	--modal-footer-background: var(--primary-630);
+	--profile-gradient-card-background: hsl(var(--black-500-hsl) / 0.7);
 	--profile-gradient-message-input-border: hsl(var(--primary-500-hsl) / 0.48);
 	--profile-gradient-note-background: hsl(var(--black-500-hsl) / 0.3);
 	--profile-gradient-overlay: hsl(var(--black-500-hsl) / 0.6);
-	--profile-gradient-overlay-synced-with-user-theme: hsl(
-		var(--black-500-hsl) / 0.8
-	);
-	--profile-gradient-profile-body-background-hover: hsl(
-		var(--white-500-hsl) / 0.16
-	);
+	--profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl) / 0.8);
+	--profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl) / 0.16);
 	--profile-gradient-role-pill-background: hsl(var(--primary-660-hsl) / 0.5);
 	--profile-gradient-role-pill-border: hsl(var(--white-500-hsl) / 0.2);
 	--profile-gradient-section-box: hsl(var(--black-500-hsl) / 0.45);
@@ -258,7 +270,10 @@
 	--status-warning-background: var(--yellow-300);
 	--status-warning-text: var(--black-500);
 	--textbox-markdown-syntax: var(--primary-360);
+	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
 	--user-profile-header-overflow-background: hsl(var(--primary-700-hsl) / 0.5);
+	--voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
+	--voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
 	--white: var(--white-500);
 	--shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
 	--shadow-border-filter: drop-shadow(0 0 1px hsla(0, 0%, 100%, 0.08));
@@ -266,8 +281,7 @@
 	--shadow-button-overlay-filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.24));
 	--shadow-high: 0 12px 24px 0 rgba(0, 0, 0, 0.24);
 	--shadow-high-filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.24));
-	--shadow-ledge: 0 2px 0 0 rgba(0, 0, 0, 0.05), 0 1.5px 0 0 rgba(0, 0, 0, 0.05),
-		0 1px 0 0 rgba(0, 0, 0, 0.16);
+	--shadow-ledge: 0 2px 0 0 rgba(0, 0, 0, 0.05), 0 1.5px 0 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.16);
 	--shadow-ledge-filter: drop-shadow(0 1.5px 0 rgba(0, 0, 0, 0.24));
 	--shadow-low: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	--shadow-low-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.14));
@@ -281,9 +295,17 @@
 	--shadow-mobile-navigator-x-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.22));
 	--shadow-top-high: 0 -12px 32px 0 rgba(0, 0, 0, 0.24);
 	--shadow-top-high-filter: drop-shadow(0 -12px 32px rgba(0, 0, 0, 0.24));
-	--shadow-top-ledge: 0 -2px 0 0 rgba(0, 0, 0, 0.05),
-		0 -1.5px 0 0 rgba(0, 0, 0, 0.05), 0 -1px 0 0 rgba(0, 0, 0, 0.16);
+	--shadow-top-ledge: 0 -2px 0 0 rgba(0, 0, 0, 0.05), 0 -1.5px 0 0 rgba(0, 0, 0, 0.05), 0 -1px 0 0 rgba(0, 0, 0, 0.16);
 	--shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 rgba(0, 0, 0, 0.24));
 	--shadow-top-low: 0 -1px 4px 0 rgba(0, 0, 0, 0.14);
 	--shadow-top-low-filter: drop-shadow(0 -1px 4px rgba(0, 0, 0, 0.14));
+}
+
+.theme-dark .container-ZMc96U {
+	border-bottom: 1px solid var(--background-modifier-accent);
+}
+
+.theme-dark .background-12kWdX,
+.theme-dark .background-fkKrXt {
+	background-color: var(--home-background);
 }
