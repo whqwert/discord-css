@@ -1,0 +1,22 @@
+.avatarDecoration__14b3c,
+.avatarDecoration_ae35e3 {
+	display: none;
+}
+
+.avatarDecorationHint__03e0b {
+	left: 0px;
+	top: 0px;
+}
+
+.avatarDecorationHint__03e0b > foreignObject {
+	width: 80px;
+	height: 80px;
+}
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-square-80)"] {
+	mask: url(#svg-mask-avatar-status-round-80);
+}
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-mobile-square-80)"] {
+	mask: url(#svg-mask-avatar-status-mobile-80);
+}
