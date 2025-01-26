@@ -1,22 +1,5 @@
+/* might eventually delete, now only a single display: none */
 .avatarDecoration_f9f2ca,
 .avatarDecoration_c51b4e {
 	display: none;
-}
-
-.avatarDecorationHint_f89da9 {
-	left: 0px;
-	top: 0px;
-}
-
-.avatarDecorationHint_f89da9 > foreignObject {
-	width: 80px;
-	height: 80px;
-}
-
-[mask="url(#svg-mask-avatar-decoration-profile-status-square-80)"] {
-	mask: url(#svg-mask-avatar-status-round-80);
-}
-
-[mask="url(#svg-mask-avatar-decoration-profile-status-mobile-square-80)"] {
-	mask: url(#svg-mask-avatar-status-mobile-80);
 }
